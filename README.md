@@ -29,13 +29,13 @@ The core of our "secret sauce" lies in a structured, multi-step reasoning prompt
 
 ## Standing on the Shoulders of Giants: A Nod to the Pioneers
 
-The GeoGuessr AI space has a rich history of open-source exploration. Our project would not have been possible without the foundational work and inspiration from the community. We'd like to give a massive shout-out to some of these key projects:
+The GeoGuessr AI space has a rich history of open-source exploration, and our project would not exist without the foundational work and inspiration from this community. We want to give a massive shout-out to some of the key projects that paved the way:
 
-*   **[Name of High-Ranking Repo #1, e.g., StreetCLIP]:** This project was a pioneer in applying CLIP-based models to the GeoGuessr problem. Their work demonstrated the raw potential of vision transformers for zero-shot geolocation. We learned a great deal from their approach to feature extraction.
-*   **[Name of High-Ranking Repo #2, e.g., GeoGuessr AI Bot]:** The way this project handled image preprocessing and tiling provided valuable insights for how to prepare images for analysis, especially in low-resolution scenarios.
-*   *(Add 1-2 more relevant projects you found in your Google search)*
+*   **[shokiami/GeoKnowr](https://github.com/shokiami/GeoKnowr):** This project is a fantastic example of a full-stack approach to the problem. The way `GeoKnowr` structures its FastAPI backend and handles image processing provided a great blueprint for how a production-ready service could be architected. We were particularly inspired by its clean separation of concerns between the model and the API layer.
 
-By referencing these projects, we hope to contribute to the ongoing conversation and build upon the collective knowledge of the community.
+*   **[Stelath/geoguessr-ai](https://github.com/Stelath/geoguessr-ai):** A classic and highly influential project in the community. `geoguessr-ai`'s deep dive into using Selenium for browser automation and its early experiments with CNNs for image classification really highlighted the core challenges of interacting with the game and extracting meaningful features. It's a testament to how much thought has gone into this problem over the years.
+
+By referencing these and other incredible projects, we hope to contribute to the ongoing conversation and build upon the collective knowledge of the community, shifting the focus from pure "solving" to AI-assisted "coaching."
 
 ## See it in Action: The Live Tool
 
